@@ -64,15 +64,15 @@ public class Test {
 //             em.merge(e1); // 있으면 update 수행
 //         }
          
-         {  
-             Employee e1 = new Employee();
-             e1.setId(3);
-             e1.setAddress("군산 어디"); 
-             System.out.println(e1);
-             
-//             em.persist(e1); // insert 
-             em.merge(e1); // 없으면 insert 수행
-         }
+//         {  
+//             Employee e1 = new Employee();
+//             e1.setId(3);
+//             e1.setAddress("군산 어디"); 
+//             System.out.println(e1);
+//             
+////             em.persist(e1); // insert 
+//             em.merge(e1); // 없으면 insert 수행
+//         }
           
          em.getTransaction().commit(); // update 커밋할 때 수행
       }finally {
