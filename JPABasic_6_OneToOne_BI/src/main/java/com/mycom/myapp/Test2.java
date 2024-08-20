@@ -12,7 +12,7 @@ import com.mycom.myapp.entity.Person;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 
-// OneToOneBi
+// OneToOne bi-directional
 public class Test2 {
 
     public static void main(String[] args) {
