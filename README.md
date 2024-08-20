@@ -1,1 +1,2 @@
 # URECA-JPA
+JPA STUDY!!
